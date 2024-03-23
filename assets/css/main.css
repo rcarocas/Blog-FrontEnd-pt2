@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #171717;
+}
+
+.header__brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contenido__titulo {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.articulo-actual__fecha {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.articulo-actual__titulo {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tag-actual__texto {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.articulo__fecha {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.articulo__titulo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tag__texto {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.banner__titulo {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: 20px;
+}
+
+.enlace {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.footer__firma {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.header__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.contenido {
+  padding: 50px;
+  margin: 0 50px;
+}
+
+.articulo-actual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.articulo-actual__img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articulo-pasado {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.articulo-pasado__header {
+  margin-right: 10px;
+}
+
+.articulo__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.articulo-pasado__img {
+  height: 145px;
+  width: 190px;
+  border-radius: 10px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articulo-popular__imagen {
+  width: 300px;
+  height: 200px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+}
+
+.banner {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 15px 2px;
+}
+
+.banner__logo {
+  height: 75px;
+}
+
+.banner--html {
+  background-color: #E93E30;
+}
+
+.banner--js {
+  background-color: #F7E018;
+}
+
+.banner--css {
+  background-color: #299ED5;
+}
+
+.banner--react {
+  background-color: #292C33;
+}
+
+.banner--vue {
+  background-color: #67C770;
+}
+
+.banner--bootstrap {
+  background-color: #563D7C;
+}
+
+.suscripcion {
+  background-color: #63af2b;
+  border-radius: 10px;
+  padding: 2vw 8vw;
+  margin: 15px;
+  width: 80vw;
+}
+.suscripcion__izq {
+  width: 60%;
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag-actual__logo {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.tag__logo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.division {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  margin: 6px 0;
+  font-weight: bolder;
+}
+.btn--adl {
+  background-color: #63af2b;
+  color: #ffffff;
+}
+.btn--google {
+  background-color: #ffffff;
+  color: #272525;
+  border: 1px solid #595353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.btn--suscripcion {
+  background-color: #cccccc;
+}
+
+.input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  border: 1px solid #595353;
+  border-radius: 10px;
+}
+
+.form-login {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+.form-login__titulo {
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+}
+
+.form-login__container-enlace {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.post__contenido {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 2vw 8vw;
+  margin: 15px;
+}
+
+.post__imagen {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}/*# sourceMappingURL=main.css.map */

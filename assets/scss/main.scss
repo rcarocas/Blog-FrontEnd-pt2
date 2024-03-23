@@ -1,0 +1,22 @@
+// Archivo manifiesto 
+	//1. abstracts
+	@import './abstracts/variables';
+	//2. vendor
+	//3. base
+	@import './base/reset',
+	'./base/typography';
+	//4. layout
+	@import './layout/footer',
+	'./layout/header',
+	'./layout/contenido',
+	'./layout/banner',
+	'./layout/suscripcion';
+	//5. components
+	@import './components/tag',
+	'./components/division',
+	'./components/buttons',
+	'./components/inputs';
+	//6. pages
+	@import './pages/login',
+	'./pages/post';
+    //7. themes

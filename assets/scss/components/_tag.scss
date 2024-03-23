@@ -1,0 +1,17 @@
+.tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.tag-actual__logo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.tag__logo {
+    width: 40px;
+    border-radius: 50%;
+}

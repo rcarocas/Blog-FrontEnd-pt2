@@ -1,0 +1,29 @@
+// Archivo de botones 
+
+.btn {
+    padding: $sp1 15px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 6px 0;
+    font-weight: bolder;
+
+    &--adl {
+        background-color: $adl; 
+        color: $white;
+    }
+    &--google {
+        background-color: $white;
+        color: $primary;
+        border: 1px solid $secondary;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: $sp1;
+    }
+
+    &--suscripcion{
+        background-color: #cccccc;
+
+    }
+}

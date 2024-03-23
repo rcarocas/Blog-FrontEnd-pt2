@@ -1,0 +1,39 @@
+.banner {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    margin: 15px 2px;
+}
+
+.banner__logo {
+    height: 75px;
+}
+
+
+
+.banner--html{
+    background-color: #E93E30;
+}
+
+.banner--js{
+    background-color: #F7E018;
+}
+
+.banner--css{
+    background-color: #299ED5;
+}
+
+.banner--react{
+    background-color: #292C33;
+}
+
+.banner--vue{
+    background-color: #67C770;
+}
+
+.banner--bootstrap{
+    background-color: #563D7C;
+}
+

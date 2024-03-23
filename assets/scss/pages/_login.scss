@@ -1,0 +1,16 @@
+.form-login {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+
+    &__titulo{
+        padding-top: 8vh;
+        padding-bottom: 2vh;
+    }
+}
+
+.form-login__container-enlace{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}

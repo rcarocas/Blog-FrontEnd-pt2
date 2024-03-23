@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Frontend</title>
+    <meta name="author" content="RCC">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/img/logos/adl.png" alt="logo adl">
+        <p class="header__brand">Blog Frontend</p>
+
+    </header>
+    <hr class="division">
+
+    <main>
+        <section id="novedades" class="novedades contenido">
+            <h2 class="contenidos__titulo">Novedades</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <section class="articulo-actual">
+                        <article class="">
+                            <div class="articulo-actual__header">
+                                <img src="./assets/img/posts/bootstrap.png" alt="" class="articulo-actual__img">
+                            </div>
+                            <small class="articulo-actual__fecha">24 Noviembre, 2022</small>
+                            <div>
+                                <h3 class="articulo-actual__titulo"><a href="./post-bootstrap.html"
+                                        class="enlace">Modifica el tema de Bootstrap con variables CSS</a></h3>
+                            </div>
+                            <div class="articulo-actual__autor">
+                                <div class="tag tag-actual">
+                                    <img src="./assets/img/logos/adl.png" alt="" class="tag-actual__logo">
+                                    <h4 class="tag-actual__texto">Desafío Latam</h4>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <section class="articulos-pasados">
+                        <article class="articulo-pasado">
+                            <div class="articulo-pasado__header">
+                                <img src="./assets/img/posts/Herencia-JS.png" alt="" class="articulo-pasado__img">
+                            </div>
+                            <div class="articulo__contenido">
+                                <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                <div>
+                                    <h3 class="articulo__titulo">Herencia en JavaScript</h3>
+                                </div>
+                                <div class="articulo__autor">
+                                    <div class="tag">
+                                        <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                        <h4 class="tag__texto">Desafío Latam</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="articulo-pasado">
+                            <div class="articulo-pasado__header">
+                                <img src="./assets/img/posts/Etiquetas-semánticas-HTML.png" alt=""
+                                    class="articulo-pasado__img">
+                            </div>
+                            <div class="articulo__contenido">
+                                <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                <div>
+                                    <h3 class="articulo__titulo">Etiquetas semánticas</h3>
+                                </div>
+                                <div class="articulo__autor">
+                                    <div class="tag">
+                                        <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                        <h4 class="tag__texto">Desafío Latam</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="articulo-pasado">
+                            <div class="articulo-pasado__header">
+                                <img src="./assets/img/posts/reactComponents.png" alt="" class="articulo-pasado__img">
+                            </div>
+                            <div class="articulo__contenido">
+                                <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                <div>
+                                    <h3 class="articulo__titulo">Componentes React</h3>
+                                </div>
+                                <div class="articulo__autor">
+                                    <div class="tag">
+                                        <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                        <h4 class="tag__texto">Desafío Latam</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <hr class="division">
+        <section class="contenido">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <section class="populares">
+                        <h2 class="contenidos__titulo">Populares</h2>
+                        <section class="populares__articulos">
+                            <div class="row g-3">
+                                <div class="col-12 col-lg-6">
+                                    <article class="articulo-popular">
+                                        <div class="articulo-popular__header">
+                                            <img src="./assets/img/posts/vue-components.png" alt=""
+                                                class="articulo-popular__imagen">
+                                        </div>
+                                        <div class="articulo__contenido">
+                                            <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                            <div>
+                                                <h3 class="articulo__titulo">Componentes Vue</h3>
+                                            </div>
+                                            <div class="articulo__autor">
+                                                <div class="tag">
+                                                    <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                                    <h4 class="tag__texto">Desafío Latam</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <article class="articulo-popular">
+                                        <div class="articulo-popular__header">
+                                            <img src="./assets/img/posts/api-js.png" alt=""
+                                                class="articulo-popular__imagen">
+                                        </div>
+                                        <div class="articulo__contenido">
+                                            <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                            <div>
+                                                <h3 class="articulo__titulo">Consumo de API con JavaScript</h3>
+                                            </div>
+                                            <div class="articulo__autor">
+                                                <div class="tag">
+                                                    <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                                    <h4 class="tag__texto">Desafío Latam</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <article class="articulo-popular">
+                                        <div class="articulo-popular__header">
+                                            <img src="./assets/img/posts/sass.jpg" alt=""
+                                                class="articulo-popular__imagen">
+                                        </div>
+                                        <div class="articulo__contenido">
+                                            <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                            <div>
+                                                <h3 class="articulo__titulo">CSS reutilizable con Sass</h3>
+                                            </div>
+                                            <div class="articulo__autor">
+                                                <div class="tag">
+                                                    <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                                    <h4 class="tag__texto">Desafío Latam</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <article class="articulo-popular">
+                                        <div class="articulo-popular__header">
+                                            <img src="./assets/img/posts/bootstrap.png" alt=""
+                                                class="articulo-popular__imagen">
+                                        </div>
+                                        <div class="articulo__contenido">
+                                            <small class="articulo__fecha">24 Noviembre, 2022</small>
+                                            <div>
+                                                <h3 class="articulo__titulo">Componentes Bootstrap</h3>
+                                            </div>
+                                            <div class="articulo__autor">
+                                                <div class="tag">
+                                                    <img src="./assets/img/logos/adl.png" alt="" class="tag__logo">
+                                                    <h4 class="tag__texto">Desafío Latam</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+
+                </div>
+                <div class="col-12 col-lg-3">
+                    <section class="categorias">
+                        <h2 class="contenidos__titulo">Categorías</h2>
+                        <div class="banner banner--html">
+                            <img src="./assets/img/logos/html.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">HTML</span>
+                        </div>
+                        <div class="banner banner--js">
+                            <img src="./assets/img/logos/js.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">Javascript</span>
+                        </div>
+                        <div class="banner banner--css">
+                            <img src="./assets/img/logos/css.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">CSS</span>
+                        </div>
+                        <div class="banner banner--react">
+                            <img src="./assets/img/logos/react.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">React</span>
+                        </div>
+                        <div class="banner banner--vue">
+                            <img src="./assets/img/logos/vue.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">Vue</span>
+                        </div>
+                        <div class="banner banner--bootstrap">
+                            <img src="./assets/img/logos/bootstrap-logo.png" alt="" class="banner__logo">
+                            <span class="banner__titulo">Bootstrap</span>
+                        </div>
+                        <div>
+                            <p class="texto">Ver todas las categorías > </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section id="suscripcion" class="contenido">
+            <div class="suscripcion">
+                <h2 class="banner__titulo suscripcion__izq">Mantente actualizado sobre el Desarrollo Front End</h2>
+                <div class="suscripcion__form row justify-content-between">
+                    <div class="col-12 col-lg-7">
+                        <input type="email" class="input-email input " name="email">
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <button class="btn btn--suscripcion">Suscríbete</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <hr class="division">
+
+    </main>
+    <footer class="footer">
+        <div class="footer__firma">
+            <img class="header__logo" src="./assets/img/logos/adl.png" alt="logo adl">
+            <p class="header__brand">Blog Frontend</p>
+        </div>
+        <div>
+            <p>Desafío Latam - 2023</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
